@@ -26,9 +26,14 @@ G-code.
 - Viewing-angle or lenticular effects are out of scope.
 - The first inputs are two simple black-and-white symbols or silhouettes.
 - The first outputs are two still renders, one for each lighting state.
+- Image information is encoded only in surface geometry. The renderer uses one
+  uniform matte material and does not apply either source image as a texture.
 - Video and machine-path generation are explicitly deferred.
 - Production G-code waits until a small physical coupon agrees with the
   simulation closely enough to be useful.
+
+The feasibility spike is disposable research code. Its implementation does not
+constrain the eventual product architecture.
 
 ## Documents
 

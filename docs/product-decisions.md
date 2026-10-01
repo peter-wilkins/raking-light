@@ -46,3 +46,27 @@
   LinuxCNC output cannot answer that question and would delay feedback.
 - **Consequence:** No animation, MP4, G-code, machine-time estimate, or
   LinuxCNC-specific settings belong in the first implementation.
+
+## D-005: Geometry alone carries the images
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for first proof
+- **Decision:** Use one uniform matte material, one fixed frontal camera, and
+  one shared relief surface. Only the light position changes between renders.
+- **Reason:** Textures, pigmentation, and image-shaped projected lights could
+  reproduce the inputs without proving the relief principle.
+- **Consequence:** Source images may influence mesh geometry only. They must not
+  be passed to material, texture, compositing, or lighting stages.
+
+## D-006: Treat optical validation as a disposable spike
+
+- **Date:** 2026-10-01
+- **Status:** Accepted
+- **Decision:** Build the smallest credible experiment needed to assess the
+  optical idea, without treating its dependencies or code structure as the
+  eventual application architecture.
+- **Reason:** There is no value in designing production software before showing
+  that one manufacturable surface can produce two distinct lighting responses.
+- **Consequence:** Prefer an established renderer and throwaway script. Capture
+  the experiment and verdict, then separately design product software only if
+  the result warrants it.
