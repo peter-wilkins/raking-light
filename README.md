@@ -41,3 +41,4 @@ not constrain the eventual product architecture.
 
 - [Source brief](docs/source-brief.md)
 - [Product decisions](docs/product-decisions.md)
+- [Wall-panel reference survey](docs/wall-panel-reference-survey.md)
