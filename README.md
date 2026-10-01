@@ -3,7 +3,7 @@
 Raking Light is an open-source experiment in making relief panels that reveal
 different images when illuminated from above or below.
 
-The intended workflow is:
+The eventual intended workflow is:
 
 ```text
 two source images
@@ -12,8 +12,10 @@ two source images
 -> verified machine instructions
 ```
 
-The project is currently in product and optical-feasibility discovery. It does
-not yet generate production-ready G-code.
+The project is currently testing optical feasibility. Its first software slice
+only constructs one candidate relief and renders two still images of that same
+surface under upper and lower illumination. It does not generate video or
+G-code.
 
 ## MVP boundary
 
@@ -22,8 +24,9 @@ not yet generate production-ready G-code.
   repeatable positions.
 - The installation changes illumination between those two fixtures.
 - Viewing-angle or lenticular effects are out of scope.
-- The simulator and eventual machine-path generator must consume the same
-  explicit surface geometry.
+- The first inputs are two simple black-and-white symbols or silhouettes.
+- The first outputs are two still renders, one for each lighting state.
+- Video and machine-path generation are explicitly deferred.
 - Production G-code waits until a small physical coupon agrees with the
   simulation closely enough to be useful.
 
