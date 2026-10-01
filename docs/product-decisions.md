@@ -99,3 +99,16 @@
   manufacturing metadata: likely cutter, number of passes, tool changes, and
   relative cutting effort. Exact proprietary decorative patterns are reference
   material, not production assets.
+
+## D-009: Constrain the first study to one simple cutting operation
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for first study
+- **Decision:** Design the first faceted pleat field for one V-bit, straight
+  continuous cuts, and no tool changes.
+- **Reason:** This makes routing efficiency intrinsic to the design experiment.
+  A visually successful result under this constraint has a credible path to
+  fast manufacture.
+- **Consequence:** Curved toolpaths, pockets, raster finishing, and secondary
+  cutters are out of scope for the first study. Blender parameters should map
+  visibly to conceptual cut lines and cut depth.
