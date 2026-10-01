@@ -136,3 +136,16 @@
 - **Consequence:** Use a uniform matte material in the first Blender study.
   Plywood, bamboo, laminates, and contrasting cores remain later material
   experiments.
+
+## D-012: Begin with an original botanical mural
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for first study
+- **Decision:** Make the first whole-wall composition from large stylised stems,
+  leaves, and a restrained number of flower forms.
+- **Reason:** Botanical forms can be expressive with economical linework, remain
+  recognisable through light and shadow, and provide both focal and quiet areas
+  across a wall.
+- **Consequence:** Historical decorative art may inform rhythm and economy, but
+  the study must generate an original composition rather than trace an existing
+  pattern.
