@@ -24,11 +24,13 @@ to machine.
 - Blender is the first digital studio and renderer.
 - Reference products are studied for geometry, repetition, lighting behaviour,
   and manufacturing strategy; their exact decorative patterns are not copied.
+- Designs describe one composition across a whole wall. Sheet boundaries are a
+  manufacturing constraint, not a reason to repeat the same panel pattern.
 - Designs must be plausible for three-axis routing from sheet or panel stock.
 - Each study records likely tool choice, pass count, tool changes, and a rough
   cutting-effort class alongside the render.
-- Simple repeated geometry is a feature when it produces a strong result with
-  less machine time.
+- Simple cutting logic is a feature when it produces a strong result with less
+  machine time, but the resulting wall composition need not repeat.
 - G-code, LinuxCNC integration, and production feeds and speeds remain deferred
   until a design family is worth physically testing.
 - The dual-image lighting idea is parked, not deleted. Its source brief and

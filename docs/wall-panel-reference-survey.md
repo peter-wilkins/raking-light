@@ -77,20 +77,21 @@ Likely effort: medium to high and material-dependent.
 
 ## Recommended first Blender study
 
-Build an original **faceted pleat field** from a small repeated cell. Restrict
-the cell to planar faces that could plausibly be produced by long V-bit cuts.
-Render it under adjustable raking light, then vary:
+Build an original **whole-wall composition** whose relief can be represented by
+straight continuous V-bit cuts. Start with stylised botanical or landscape
+linework rather than a repeated panel cell. Render it under adjustable raking
+light, then vary:
 
-- cell width and depth;
+- line position, spacing, width, and depth;
 - cut direction;
-- phase and repetition;
-- occasional controlled disruptions;
-- panel tiling and edge continuity;
+- the density used to describe focal and quiet areas;
+- continuity across eventual sheet boundaries;
+- wall aspect ratio and viewing distance;
 - material colour and roughness.
 
-This sits between boring straight fluting and an expensive full-surface 3D
-raster. It gives us an artistic parameter space while keeping cutting effort a
-first-class constraint.
+This tests whether simple machining can carry an intentional wall-sized image.
+The composition lives in wall coordinates; panel tiling is deferred until the
+design has visual value.
 
 ## Comparison record for every study
 

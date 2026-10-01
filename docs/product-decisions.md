@@ -112,3 +112,27 @@
 - **Consequence:** Curved toolpaths, pockets, raster finishing, and secondary
   cutters are out of scope for the first study. Blender parameters should map
   visibly to conceptual cut lines and cut depth.
+
+## D-010: Design the wall; manufacture it as panels
+
+- **Date:** 2026-10-01
+- **Status:** Accepted
+- **Decision:** Treat the artwork as one composition in wall coordinates. Split
+  it into sheet-sized panels only for manufacture, transport, and installation.
+- **Reason:** The product distinction is a designed whole wall rather than a
+  repeating decorative panel. Botanical forms, line art, and landscapes can
+  develop across the complete space.
+- **Consequence:** Panel seams and registration belong to a later manufacturing
+  stage. The design model must not reset or repeat at sheet boundaries.
+
+## D-011: Start with painted MDF
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for first study
+- **Decision:** Model the first design as a painted 18 mm MDF wall.
+- **Reason:** MDF is inexpensive and consistent. A uniform painted finish lets
+  us judge whether geometry and raking light carry the design before adding
+  wood grain or exposed laminate layers.
+- **Consequence:** Use a uniform matte material in the first Blender study.
+  Plywood, bamboo, laminates, and contrasting cores remain later material
+  experiments.
