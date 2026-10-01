@@ -18,7 +18,9 @@ not yet generate production-ready G-code.
 ## MVP boundary
 
 - The viewer remains approximately in front of the panel.
-- The installation changes illumination between an upper and lower light.
+- The installation uses specified upper and lower light fixtures in fixed,
+  repeatable positions.
+- The installation changes illumination between those two fixtures.
 - Viewing-angle or lenticular effects are out of scope.
 - The simulator and eventual machine-path generator must consume the same
   explicit surface geometry.
@@ -29,4 +31,3 @@ not yet generate production-ready G-code.
 
 - [Source brief](docs/source-brief.md)
 - [Product decisions](docs/product-decisions.md)
-

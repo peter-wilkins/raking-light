@@ -13,3 +13,15 @@
   first simulator and physical test need only model two controlled lighting
   states from a frontal camera position.
 
+## D-002: Lighting is part of the optical system
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for MVP
+- **Decision:** Specify upper and lower light fixtures in fixed positions as
+  part of the installation.
+- **Reason:** Light angle, beam spread, source size, and distance affect the
+  visible result. Unspecified ambient or customer-positioned lighting would
+  make simulation and physical validation incomparable.
+- **Consequence:** A panel design must refer to a lighting configuration. The
+  prototype may use adjustable fixtures while finding good values, but a
+  validated design records and reproduces those values.
