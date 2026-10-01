@@ -39,6 +39,26 @@ to machine.
 Digital studies are disposable research artifacts. Their implementation does
 not constrain the eventual product architecture.
 
+## Run on Windows
+
+1. Install [Blender 4.5 LTS](https://www.blender.org/download/lts/4-5/).
+2. Download or clone this repository into a writable folder.
+3. Double-click `run-studio.cmd`.
+
+The launcher renders three lighting studies and opens the generated Blender
+model. Outputs are saved in `artifacts/botanical-vbit-study/`. No separate Python
+installation is required: the script runs inside Blender with its bundled NumPy.
+
+For a portable Blender installation, run this in PowerShell from the project:
+
+```powershell
+.\scripts\run-studio.ps1 -BlenderPath 'C:\Tools\Blender\blender.exe'
+```
+
+Add `-RenderOnly` to generate the files without opening Blender. The Windows
+launcher has been reviewed here but requires its first execution on Windows;
+the underlying script has been rendered successfully on Linux with Blender 4.5.
+
 ## Documents
 
 - [Source brief](docs/source-brief.md)
