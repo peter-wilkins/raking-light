@@ -70,3 +70,32 @@
 - **Consequence:** Prefer an established renderer and throwaway script. Capture
   the experiment and verdict, then separately design product software only if
   the result warrants it.
+
+## D-007: Park the dual-image concept
+
+- **Date:** 2026-10-01
+- **Status:** Parked
+- **Decision:** Stop active work on encoding two source images into one relief.
+- **Reason:** The research examples solve a recognisable but different problem:
+  they encode images using dense surface detail. The intended product is still
+  artistically amorphous and should be led by sculptural form, light, and the
+  capabilities of the routing table. Minimising cutting time is an advantage,
+  not a secondary optimisation.
+- **Consequence:** Keep D-001 through D-006 as historical constraints for a
+  possible later experiment. Do not build the proposed two-image renderer,
+  video pipeline, or G-code generator now.
+
+## D-008: Use Blender as a digital wall-panel studio
+
+- **Date:** 2026-10-01
+- **Status:** Accepted for discovery
+- **Decision:** Recreate the geometric and manufacturing principles of selected
+  wall-panel products in Blender, then vary those principles into original
+  designs.
+- **Reason:** Existing products provide concrete visual targets and known market
+  context. Blender allows cheap iteration over geometry, materials, scale, and
+  lighting before consuming stock or routing time.
+- **Consequence:** Early studies should pair rendered appearance with simple
+  manufacturing metadata: likely cutter, number of passes, tool changes, and
+  relative cutting effort. Exact proprietary decorative patterns are reference
+  material, not production assets.

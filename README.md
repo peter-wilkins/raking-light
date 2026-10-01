@@ -1,39 +1,41 @@
 # Raking Light
 
-Raking Light is an open-source experiment in making relief panels that reveal
-different images when illuminated from above or below.
+Raking Light is an open-source digital studio for designing artistic relief
+wall panels that can be manufactured efficiently on a CNC router.
 
-The eventual intended workflow is:
+The intended workflow is:
 
 ```text
-two source images
--> one physical surface description
--> lighting simulation
+commercial and artistic references
+-> original parametric surface studies
+-> Blender lighting and material previews
+-> manufacturability and cutting-effort review
 -> verified machine instructions
 ```
 
-The project is currently testing optical feasibility. Its first software slice
-only constructs one candidate relief and renders two still images of that same
-surface under upper and lower illumination. It does not generate video or
-G-code.
+The project is currently building a cheap digital feedback loop. Its first
+studies recreate the geometric principles behind existing routed wall-panel
+products in Blender, then deliberately vary them into original designs. The
+goal is to learn which forms look good under raking light while remaining fast
+to machine.
 
-## MVP boundary
+## Current boundary
 
-- The viewer remains approximately in front of the panel.
-- The installation uses specified upper and lower light fixtures in fixed,
-  repeatable positions.
-- The installation changes illumination between those two fixtures.
-- Viewing-angle or lenticular effects are out of scope.
-- The first inputs are two simple black-and-white symbols or silhouettes.
-- The first outputs are two still renders, one for each lighting state.
-- Image information is encoded only in surface geometry. The renderer uses one
-  uniform matte material and does not apply either source image as a texture.
-- Video and machine-path generation are explicitly deferred.
-- Production G-code waits until a small physical coupon agrees with the
-  simulation closely enough to be useful.
+- Blender is the first digital studio and renderer.
+- Reference products are studied for geometry, repetition, lighting behaviour,
+  and manufacturing strategy; their exact decorative patterns are not copied.
+- Designs must be plausible for three-axis routing from sheet or panel stock.
+- Each study records likely tool choice, pass count, tool changes, and a rough
+  cutting-effort class alongside the render.
+- Simple repeated geometry is a feature when it produces a strong result with
+  less machine time.
+- G-code, LinuxCNC integration, and production feeds and speeds remain deferred
+  until a design family is worth physically testing.
+- The dual-image lighting idea is parked, not deleted. Its source brief and
+  decisions remain as research history.
 
-The feasibility spike is disposable research code. Its implementation does not
-constrain the eventual product architecture.
+Digital studies are disposable research artifacts. Their implementation does
+not constrain the eventual product architecture.
 
 ## Documents
 
